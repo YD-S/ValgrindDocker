@@ -1,0 +1,27 @@
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Docker directories
+docker/
+
+# Docker volumes
+*.volume
+
+# Docker env files
+*.env
+
+# Log files
+logs/
+*.log
+
+# ssh keys
+*.pub
+
+# Data directories
+data/
+
+# Temporary files
+*.tmp
