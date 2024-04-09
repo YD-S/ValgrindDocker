@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  valgrind:
+    image: valgrind
+    restart: always
+    ports:
+      - "2020:22"
+    volumes:
+      - ./test:/home/sshuser/test
+    build: .

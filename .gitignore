@@ -1,9 +1,4 @@
 
-# Docker
-Dockerfile
-.dockerignore
-docker-compose.yml
-
 # Docker directories
 docker/
 
